@@ -1,0 +1,12 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+group = "com.alexfu"
+version = "1.0"
+
+dependencies {
+    implementation gradleApi()
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
